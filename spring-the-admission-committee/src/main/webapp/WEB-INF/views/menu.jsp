@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
 <%@ page isELIgnored="false"%>
-<%@ page import="jakarta.servlet.jsp.PageContext"%>
+<%@ page import="jakarta.servlet.*"%>
 
 <!DOCTYPE html>
    <head>
