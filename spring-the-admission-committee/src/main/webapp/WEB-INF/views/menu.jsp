@@ -3,6 +3,7 @@
 
 <%@ page isELIgnored="false"%>
 <%@ page import="jakarta.servlet.*"%>
+<%@ page import="javax.servlet.jsp.*"%>
 
 <!DOCTYPE html>
    <head>
@@ -18,9 +19,9 @@
 			<img class="logo" alt="logo" src="resources/img/education-icon-3.jpg" width="50">
 			<nav>
 				<ul class="nav_links">
-					<li><a href="${pageContext.request.contextPath}/enrolleeTask">Enrollee</a></li>
-					<li><a href="${pageContext.request.contextPath}/adminTask">Admin</a></li>
-					<li><a href="${pageContext.request.contextPath}/userInfo">User</a></li>
+					<li><a href="${pageContext.request.contextPath}/add">Enrollee</a></li>
+					<li><a href="${pageContext.request.contextPath}/index">Admin</a></li>
+					<li><a href="${pageContext.request.contextPath}/">User</a></li>
 					<li><a href="${pageContext.request.contextPath}/login">Login</a></li>
 					<li><a href="${pageContext.request.contextPath}/logout">Home</a></li>
 				</ul>
