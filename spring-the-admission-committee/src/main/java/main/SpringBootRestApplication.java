@@ -10,5 +10,7 @@ public class SpringBootRestApplication {
 	 public static void main(String[] args) throws Exception {
 	        SpringApplication.run(SpringBootRestApplication.class, args);
 	    }
+	 
+	
 
 }
